@@ -1,0 +1,7 @@
+you just simply setup up few things to make it work
+create and .env file in root folder and put these three vairable "MONGODB_URI, PORT, JWT_SECRET".
+then go to root folder and run "npm install"
+after downloading all dependencies
+go to root folder and hit "npm start"
+
+make sure to correctly define .env file in root folder.

@@ -1,0 +1,59 @@
+body{
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  background-image: none;
+}
+
+/* Landing page background */
+body[data-route="landing"] {
+  background-image: url(./components/images/background-img.jpg);
+}
+
+/* Auction platform background */
+body[data-route="auction"] {
+  /* background-color: blue; */
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: linear-gradient(45deg, yellow, purple, orange );
+  background-size: 400% 400%;
+  animation: gradientAnimation 5s ease infinite;
+}
+
+body[data-route="auction-platform"] {
+  background-image: linear-gradient( green,aqua, yellow )
+}
+body[data-route="check-bids"] {
+  background-image: url(./components/images/checkbid.jpg);
+}
+body[data-route="inventory"] {
+  background-image: url(./components/images/inventory-background.png);
+}
+body[data-route="chat"] {
+  background-color: aqua;
+}
+body[data-route="product-form"] {
+  background-image: url(./components/images/inventory-background.png);
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
