@@ -1,4 +1,6 @@
-## Overview
+# auction.platform
+
+## About
 
 This is the auction platform for distressed properties including REOs, short sales, and foreclosures.
 
@@ -7,8 +9,8 @@ This is the auction platform for distressed properties including REOs, short sal
 Clone Repo:
 
 ```sh
-git clone https://github.com/MegaOps454-org/Auction-Platform.git
-cd Auction-Platform
+git https://github.com/0xJonaseb11/auction.platform.3.0.git 
+cd auction.platform.3.0
 ```
 
 Install Node:
@@ -30,3 +32,7 @@ npm start
 ```
 
 Open `localhost:3000` to access the application!😎
+
+--------------
+
+@0xJonaseb11
