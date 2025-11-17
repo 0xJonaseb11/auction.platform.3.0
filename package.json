@@ -23,13 +23,13 @@
     "drei": "^2.2.21",
     "express": "^4.21.2",
     "express-validator": "^7.0.1",
-    "jsonwebtoken": "^9.0.2",
     "gltf-loader": "^1.0.0",
     "js-cookie": "^3.0.5",
     "js-cookies": "^1.0.4",
+    "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.9.5",
-    "multer": "^2.0.2",
     "mui": "^0.0.1",
+    "multer": "^2.0.2",
     "nodemon": "^3.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -76,5 +76,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "packageManager": "yarn@4.9.1+sha512.f95ce356460e05be48d66401c1ae64ef84d163dd689964962c6888a9810865e39097a5e9de748876c2e0bf89b232d583c33982773e9903ae7a76257270986538"
 }
